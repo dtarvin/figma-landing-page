@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figma Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul>
+            <ul class="navbar--flex_container">
                 <li>
                     <a href="/home" class="navbar--logo">Lander.</a>
                 </li>
-                <li class="navbar--links"><a href="/home">Home</a></li>
+                <li class="navbar--links navbar--home_link"><a href="/home">Home</a></li>
                 <li class="navbar--links"><a href="/about">About</a></li>
                 <li class="navbar--links"><a href="/reviews">Reviews</a></li>
                 <li class="navbar--links"><a href="/video">Video</a></li>
@@ -25,7 +29,7 @@
     </header>
     <section class="above_fold">
         <div class="above_fold--billboard">
-            <img class="above_fold--cart_image" src="./images/makeup-cart.png" alt="Shopping cart with makeup in it">
+            <img class="above_fold--cart_image" src="https://picsum.photos/760/649" alt="Shopping cart with makeup in it">
             <h1 class="above_fold--billboard_heading">Your Product Landing Page</h1>
             <p class="above_fold--billboard_text">Write here about your product short description.</p>
             <a class="above_fold--billboard_button" href="/order">Order Now</a>
