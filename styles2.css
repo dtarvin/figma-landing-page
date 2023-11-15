@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 10264px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    width: 1920px;
+    height: 102px;
+    padding: 0px 190px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navlink-active {
+    width: 51px;
+    height: 4px;
+    flex-shrink: 0;
+    background-color: #0A74f1;
+}
+
+.product_landing {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product_landing--text_content {
+    display: flex;
+    width: 760px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.product_landing--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.product_landing--heading {
+    color: #313131;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 94px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 109%;
+    letter-spacing: -0.94px;
+    text-transform: capitalize;
+    align-self: stretch;
+}
+
+.product_landing--paragraph {
+    align-self: stretch;
+    color: #616161;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%;
+    /* 37.6px */
+}
+
+.product_landing--button {
+    display: flex;
+    padding: 17px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 70px;
+    background: #0A74F1;
+    color: #FFF;
+    /* --- for button text ---
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 188%;*/
+    /* 37.6px *//*
+    letter-spacing: 1.8px;
+    text-transform: uppercase;*/
+}
+
+.product_landing--image {
+    width: 760px;
+    height: 649px;
+    border-radius: 20px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.why_is_lander {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.why_is_lander--text_content {
+    display: flex;
+    width: 760px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+.why_is_lander--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.why_is_lander--heading {
+    align-self: stretch;
+    color: #313131;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 109%;
+    /* 69.76px */
+    letter-spacing: -0.64px;
+    text-transform: capitalize;
+}
+
+.why_is_lander--paragraph {
+    align-self: stretch;
+    color: #616161;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%;
+    /* 30.08px */
+}
+
+.why_is_lander--features {
+    display: flex;
+    width: 1540px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.why_is_lander--features_box {
+    display: flex;
+    padding: 100px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    border: 1px solid #D7D7D7;
+    background: #F9FAFC;
+}
+
+.why_is_lander--features_box--icon {
+    width: 69px;
+    height: 69px;
+}
+
+.why_is_lander--features_box--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.why_is_lander--features_box--heading {
+    align-self: stretch;
+    color: #313131;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+    /* 117.857% */
+    text-transform: capitalize;
+}
+
+.why_is_lander--features_box--paragraph {
+    align-self: stretch;
+    color: #616161;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%;
+    /* 30.08px */
+}
+
