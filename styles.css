@@ -1,0 +1,80 @@
+:root {
+    font-size: 1em;
+}
+
+html {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 190px;
+    padding-right: 190px;
+}
+
+h1 {
+    font-size: 5.875rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.375rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+
+.navbar--flex_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    color: #313131;
+    text-decoration: none;
+}
+
+.navbar--logo {
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 2.875rem;
+    font-weight: 600;
+}
+
+.navbar--links > a {
+    text-transform: uppercase;
+    padding-left: 3rem;
+}
+
+.navbar--links.navbar--home_link {
+    margin-left: auto;
+}
+
+.above_fold--cart_image {
+    float: right;
+}
+
+.above_fold--billboard_heading {
+    line-height: 109%;
+    font-weight: 600;
+    text-align: center;
+    
+}

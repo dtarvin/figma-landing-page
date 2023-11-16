@@ -47,10 +47,32 @@ body {
     width: 760px;
     flex-direction: column;
     justify-content: center;
+:root {
+    font-size: 1em;
+}
+
+html {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 1920px;
+    height: 10264px;
+    background: #FFF;
+    padding: 0 190px;
+}
+
+.customer_reviews {
+    display: flex;
+    width: 1540px;
+    flex-direction: column;
     align-items: center;
     gap: 46px;
 }
 
+<<<<<<< HEAD
 .product_landing--text {
     display: flex;
     flex-direction: column;
@@ -73,10 +95,45 @@ body {
 }
 
 .product_landing--paragraph {
+=======
+.customer_reviews--heading {
+    color: #313131;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 109%; /* 69.76px */
+    letter-spacing: -0.64px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.customer_reviews--reviews {
+    display: flex;
+    flex-direction: row;
+    width: 1540px;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.customer_reviews--review {
+    display: flex;
+    padding: 0px 33px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+}
+
+.customer_reviews--review_text {
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     align-self: stretch;
     color: #616161;
     text-align: center;
     font-family: Poppins;
+<<<<<<< HEAD
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -122,21 +179,128 @@ body {
 .why_is_lander--text_content {
     display: flex;
     width: 760px;
+=======
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%; /* 30.08px */
+}
+
+.customer_reviews--review_name_and_rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.customer_reviews--rating {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.customer_reviews--star {
+    width: 15px;
+    height: 15px;
+}
+
+.customer_reviews--name {
+    color: #313131;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 183.333% */
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.customer_reviews--slider {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.customer_reviews--ellipse {
+    width: 17px;
+    height: 17px;
+}
+
+.video {
+    display: flex;
+    width: 1540px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #F9FAFC;
+}
+
+.video--video_and_text {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.video--video {
+    height: 768px;
+    flex: 1 0 0;
+    position: relative;
+}
+
+.video--video_image {
+    width: 770px;
+    height: 768px;
+    flex-shrink: 0;
+    background: url(./images/pexels-suzy-hazelwood-25369653.png), lightgray -149.8px -313.703px / 139.851% 180.277% no-repeat;
+}
+
+.video--ellipse, .video--play_button {
+    width: 123px;
+    height: 123px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video--why_choose_us {
+    display: flex;
+    height: 768px;
+    padding: 0px 100px;
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 46px;
+<<<<<<< HEAD
 }
 
 .why_is_lander--text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+=======
+    flex: 1 0 0;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.video--why_choose_us--title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     gap: 14px;
     align-self: stretch;
 }
 
+<<<<<<< HEAD
 .why_is_lander--heading {
+=======
+.video--why_choose_us--heading {
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     align-self: stretch;
     color: #313131;
     text-align: center;
@@ -144,13 +308,21 @@ body {
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
+<<<<<<< HEAD
     line-height: 109%;
     /* 69.76px */
+=======
+    line-height: 109%; /* 69.76px */
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     letter-spacing: -0.64px;
     text-transform: capitalize;
 }
 
+<<<<<<< HEAD
 .why_is_lander--paragraph {
+=======
+.video--why_choose_us--text {
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     align-self: stretch;
     color: #616161;
     text-align: center;
@@ -158,6 +330,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+<<<<<<< HEAD
     line-height: 188%;
     /* 30.08px */
 }
@@ -196,6 +369,28 @@ body {
 }
 
 .why_is_lander--features_box--heading {
+=======
+    line-height: 188%; /* 30.08px */
+}
+
+.video--why_choose_us--why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.video--why_choose_us--why_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    align-self: stretch;
+}
+
+.video--why_choose_us--why_box_heading {
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     align-self: stretch;
     color: #313131;
     text-align: center;
@@ -203,12 +398,20 @@ body {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
+<<<<<<< HEAD
     line-height: 33px;
     /* 117.857% */
     text-transform: capitalize;
 }
 
 .why_is_lander--features_box--paragraph {
+=======
+    line-height: 33px; /* 117.857% */
+    text-transform: capitalize;
+}
+
+.video--why_choose_us--why_box_text {
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
     align-self: stretch;
     color: #616161;
     text-align: center;
@@ -216,7 +419,254 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+<<<<<<< HEAD
     line-height: 188%;
     /* 30.08px */
 }
 
+=======
+    line-height: 188%; /* 30.08px */
+}
+
+.features {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.features--left {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.features--side--box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.features--side--no {
+    display: flex;
+    width: 117px;
+    padding-top: 8px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.features--side--number {
+    width: 117px;
+    flex-shrink: 0;
+    color: #E9EAED;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    text-transform: capitalize;
+}
+
+.features--side--text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.features--side--text_box--heading {
+    width: 385px;
+    color: #313131;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 117.857% */
+    text-transform: capitalize;
+}
+
+.features--side--text_box--text {
+    align-self: stretch;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%; /* 30.08px */
+}
+
+.features--center {
+    width: 500px;
+    height: 630px;
+    background: url(./images/pexels-ds-stories-72560941.png), lightgray -279.182px -733.393px / 198.962% 236.518% no-repeat;
+}
+
+.features--right {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 60px;
+}
+
+.grab_deal {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.grab_deal--title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.grab_deal--title--heading {
+    color: #313131;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 109%; /* 69.76px */
+    letter-spacing: -0.64px;
+    text-transform: capitalize;    
+}
+
+.grab_deal--title-text {
+    align-self: stretch;
+    color: #616161;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%; /* 30.08px */        
+}
+
+.grab_deal--item {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+
+.grab_deal--item_image {
+    width: 760px;
+    height: 649px;
+    border-radius: 20px;
+    background: url(./images/pexels-suzy-hazelwood-25369652.png), lightgray 50% / cover no-repeat;
+}
+
+.grab_deal--right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.grab_deal--text_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.grab_deal--button {
+    display: flex;
+    padding: 17px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 70px;
+    background: #0A74F1;
+}
+
+.grab_deal--order_now {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 188%; /* 37.6px */
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.grab_deal--reviews {
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.grab_deal--text_and_price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.grab_deal--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.grab_deal--price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.grab_deal--product_name {
+    color: #313131;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 86.842% */
+    text-transform: capitalize;
+}
+
+.grab_deal--product_description {
+    width: 728px;
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188%; /* 30.08px */
+}
+
+.grab_deal--sale_price {
+    color: #0A74F1;
+    font-family: Poppins;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 97.059% */
+    text-transform: capitalize;
+}
+
+.grab_deal--original_price {
+    color: #9D9D9D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px; /* 137.5% */
+    letter-spacing: 0.72px;
+    text-decoration:line-through;
+    text-transform: capitalize;
+}
+>>>>>>> f385e95deac57507ea6a3ff27ea6b3c7252d85e5
