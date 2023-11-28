@@ -6,7 +6,10 @@
     <title>Figma Landing Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:wght@500&family=Pacifico&family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -14,7 +17,7 @@
         <nav class="navbar">
             <ul class="navbar--flex_container">
                 <li>
-                    <a href="/home" class="navbar--logo">Lander.</a>
+                    <a href="/home" class="navbar--logo logo">Lander<span class="logo--period">.</span></a>
                 </li>
                 <li class="navbar--links navbar--home_link"><a href="/home">Home</a></li>
                 <li class="navbar--links"><a href="/about">About</a></li>
@@ -29,11 +32,11 @@
     </header>
     <section class="above_fold">
         <div class="above_fold--billboard">
-            <img class="above_fold--cart_image" src="https://picsum.photos/760/649" alt="Shopping cart with makeup in it">
             <h1 class="above_fold--billboard_heading">Your Product Landing Page</h1>
             <p class="above_fold--billboard_text">Write here about your product short description.</p>
             <a class="above_fold--billboard_button" href="/order">Order Now</a>
         </div>
+        <img class="above_fold--cart_image" src="https://picsum.photos/760/649" alt="Shopping cart with makeup in it">
     </section>
     <section class="purpose">
         <div class="purpose--top_blurb">
@@ -44,25 +47,25 @@
                 lander is perfect.
             </p>
         </div>
-        <div class="boxes">
-            <div class="box">
-                <i class="box--solar_balloon"></i>
-                <h4 class="box--heading">100% High Quality Product</h4>
-                <p class="box--text">
+        <div class="purpose--boxes">
+            <div class="purpose--box">
+                <img src="./images/solar_balloon-broken.svg" alt="" class="purpose_box_balloon">
+                <h4 class="purpose--box--heading">100% High Quality Product</h4>
+                <p class="purpose--box--text">
                     We have option of pick up in store
                 </p>
             </div>
-            <div class="box">
-                <i class="box--solar_bag_heart"></i>
-                <h4 class="box--heading">Free Shipping Charge</h4>
-                <p class="box--text">
+            <div class="purpose--box">
+                <img src="./images/solar_bag-heart-broken.svg" alt="" class="purpose--box--bag_heart">
+                <h4 class="purpose--box--heading">Free Shipping Charge</h4>
+                <p class="purpose--box--text">
                     Inside City delivery within 5 days
                 </p>
             </div>
-            <div class="box">
-                <i class="box--solar_adhesive_plaster"></i>
-                <h4 class="box--heading">Money Back Guarantee</h4>
-                <p class="box--text">
+            <div class="purpose--box">
+                <img src="./images/solar_adhesive-plaster-broken.svg" alt="" class="purpose--box--adhesive_plaster">
+                <h4 class="purpose--box--heading">Money Back Guarantee</h4>
+                <p class="purpose--box--text">
                     We will take return in some cases
                 </p>
             </div>
@@ -139,13 +142,49 @@
         </div>
     </section>
     <section class="features">
-        <div class="feature--item_one"></div>
-        <div class="feature--item_two"></div>
-        <div class="feature--item_three"></div>
-        <img src="" alt="cosmetics" class="feature--image">
-        <div class="feature--item_four"></div>
-        <div class="feature--item_five"></div>
-        <div class="feature--item_six"></div>
+        <p class="features--numbers features--numbers--left features--row_one">01.</p>
+        <div class="features--row_one features--left">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
+        <p class="features--numbers features--numbers--left features--row_two">01.</p>
+        <div class="features--row_two features--left">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
+        <p class="features--numbers features--numbers--left features--row_three">01.</p>
+        <div class="features--row_three features--left">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
+        <img src="https://picsum.photos/500/630" alt="cosmetics" class="features--image">
+        <p class="features--numbers features--numbers--right features--row_one">01.</p>
+        <div class="features--row_one features--right">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
+        <p class="features--numbers features--numbers--right features--row_two">01.</p>
+        <div class="features--row_two features--right">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
+        <p class="features--numbers features--numbers--right features--row_three">01.</p>
+        <div class="features--row_three features--right">
+            <h4>Feature One</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur. Molestie aenean enim massa magna vulputate.
+            </p>
+        </div>
     </section>
     <section class="grab_deal">
         <h2 class="grab_deal--heading">
@@ -253,6 +292,123 @@
                 <a href="/order" class="our_products--order_button">Order Now</a>
             </div>
         </div>
+    </section>
+    <section class="subscribe">
+        <h2 class="subscribe--heading">Subscribe</h2>
+        <p class="subscribe--text">
+            Subscribe to our newsletter for discounts and updates.
+        </p>
+        <input type="text" class="subscribe--email_input" placeholder="Write your email address here...">
+        <button class="subscribe--button">Subscribe</button>
+    </section>
+
+    <section class="contact_us">
+        <div class="contact_us--title">
+            <h2 class="contact_us--title--heading">Contact us</h2>
+            <p class="contact_us--title--text">
+                Contact us for more information.
+            </p>
+        </div>
+        <div class="contact_us--contact">
+            <div class="contact_us--contact_icon_boxes">
+                <div class="contact_us--contact_icon_box">
+                    <img class="contact_us--contact_icon_box--icon" src="./images/solar_call-chat-outline.png" alt="">
+                    <div class="contact_us--contact_icon_box--info">
+                        <p class="contact_us--contact_icon_box--phone1">123 456 7891</p>
+                        <p class="contact_us--contact_icon_box--phone2">123 456 7891</p>
+                    </div>
+                </div>
+                <div class="contact_us--contact_icon_box">
+                    <img class="contact_us--contact_icon_box--icon" src="./images/solar_letter-linear.png" alt="">
+                    <div class="contact_us--contact_icon_box--info">
+                        <p class="contact_us--contact_icon_box--email1">youremail1@gmail.com</p>
+                        <p class="contact_us--contact_icon_box--email2">youremail2@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact_us--contact_icon_box">
+                    <img class="contact_us--contact_icon_box--icon" src="./images/solar_point-on-map-outline.png" alt="">
+                    <div class="contact_us--contact_icon_box--info">
+                        <p class="contact_us--contact_icon_box--address1">
+                            947 Dogwood Road<br>Phoenix, Arizona
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_us--map_and_form">
+                <div class="contact_us--map"></div>
+                <div class="contact_us--form">
+                    <div class="contact_us--form--inputs">
+                        <div class="contact_us--form--input--full_name_and_email">
+                            <div class="contact_us--form--input--full_name">Full Name*</div>
+                            <div class="contact_us--form--input--email">Email*</div>
+                        </div>
+                        <div class="contact_us--form--input--subject">Subject*</div>
+                        <div class="contact_us--form--input--your_message">Your Message*</div>
+                    </div>
+                    <div class="contact_us--form--button">Send message</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="listed_in">
+        <ul class="listed_in--list">
+            <li class="listed_in--lifetrack">Lifetrack</li>
+            <li class="listed_in--landing">Landing</li>
+            <li class="listed_in--happen allcaps">Happen</li>
+            <li class="listed_in--products">Products</li>
+            <li class="listed_in--opener allcaps">Opener</li>
+        </ul>
+    </section>
+    <!-- <section class="listed_in">
+        <div class="listed_in--lifetrack">Lifetrack</div>
+        <div class="listed_in--landing">Landing</div>
+        <div class="listed_in--happen allcaps">Happen</div>
+        <div class="listed_in--products">Products</div>
+        <div class="listed_in--opener allcaps">Opener</div>
+    </section> -->
+
+    <section class="insta">
+        <h2 class="insta--heading">Instagram #YourBrand</h2>
+        <div class="insta--instagram">
+            <div class="insta--instagram--pics">
+                <img src="./images/insta-pic1.png" alt="" class="insta--pic">
+                <img src="./images/insta-pic2.png" alt="" class="insta--pic">
+                <img src="./images/insta-pic3.png" alt="" class="insta--pic">
+                <img src="./images/insta-pic4.png" alt="" class="insta--pic">
+                <img src="./images/insta-pic5.png" alt="" class="insta--pic">
+                <img src="./images/insta-pic6.png" alt="" class="insta--pic">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer--top_footer">
+            <a href="/home" class="logo">Lander<span class="logo--period">.</span></a>
+            <p class="footer--top_footer--text">
+                Lander best multi-purpose product landing page.
+            </p>
+            <div class="footer--top_footer--social_icons">
+                <div class="footer--top_footer--icon">
+                    <img src="./images/facebook-icon.png" alt="" class="footer--top_footer--icon">
+                </div>
+                <div class="footer--top_footer--icon">
+                    <img src="./images/instagram-icon.png" alt="" class="footer--top_footer--icon">
+                </div>
+                <div class="footer--top_footer--icon">
+                    <img src="./images/twitter-icon.png" alt="" class="footer--top_footer--icon">
+                </div>
+                <div class="footer--top_footer--icon">
+                    <img src="./images/linkedin-icon.png" alt="" class="footer--top_footer--icon">
+                </div>
+                <div class="footer--top_footer--icon">
+                    <img src="./images/youtube-icon.png" alt="" class="footer--top_footer--icon">
+                </div>
+            </div>
+        </div>
+        <p class="footer--bottom_footer">
+            © 2023 Lander. Designed by <span class="footer--bottom_footer--name">TemplatesJungle</span>
+        </p>
     </section>
 </body>
 </html>

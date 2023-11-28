@@ -26,9 +26,21 @@ body {
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    color: #313131;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo--period {
+    color: #0A74F1;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .nav {
@@ -87,7 +99,7 @@ body {
     align-self: stretch;
 }
 
-.product_landing--paragraph {
+/* .product_landing--paragraph { */
 .customer_reviews--heading {
     color: #313131;
     text-align: center;
@@ -281,7 +293,7 @@ body {
     align-self: stretch;
 }
 
-.why_is_lander--heading {
+/* .why_is_lander--heading { */
 .video--why_choose_us--heading {
     align-self: stretch;
     color: #313131;
