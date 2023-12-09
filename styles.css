@@ -97,6 +97,8 @@ h5 {
 
 .above_fold--billboard {
     text-align: center;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .above_fold--billboard_heading {
@@ -273,9 +275,9 @@ section + section {
 .features {
     display: grid;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-template-columns: 120px 1fr 1fr 120px 1fr;
-    grid-template-rows: 25px 1fr 1fr 1fr 25px;
+    grid-template-rows: 0px 1fr 1fr 1fr 0px;
     grid-gap: 60px;
 }
 
@@ -302,7 +304,7 @@ section + section {
 }
 
 .features--image {
-    grid-row: 1 / 6;
+    grid-row: 2 / 5;
     grid-column: 3 / 4;
 }
 
