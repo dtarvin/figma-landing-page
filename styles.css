@@ -9,8 +9,6 @@ html {
 body {
     margin: 0;
     box-sizing: border-box;
-    padding-left: 12rem;
-    padding-right: 12rem;
     text-align: center;
 }
 
@@ -24,7 +22,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5.875rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -46,6 +44,9 @@ h5 {
 
 .navbar {
     background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+
 }
 
 .navbar--flex_container {
@@ -54,6 +55,8 @@ h5 {
     align-items: center;
     padding: 0;
     border-bottom: 1px solid #d1d1d1;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .navbar li {
@@ -65,12 +68,16 @@ h5 {
     text-decoration: none;
 }
 
-.navbar--logo {
-    margin-right: auto;
+.header--logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 5em;
+    z-index: 500;
 }
 
 .logo {
-    font-size: 2.875rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #313131;
     text-decoration: none;
@@ -82,7 +89,7 @@ h5 {
 
 .navbar--links > a {
     text-transform: uppercase;
-    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .navbar--links.navbar--home_link {
@@ -91,7 +98,7 @@ h5 {
 
 .above_fold {
     display: flex;
-    padding-top: 1.5rem;
+    padding-top: 4rem;
     align-items: center;
 }
 
@@ -99,6 +106,9 @@ h5 {
     text-align: center;
     padding-left: 5em;
     padding-right: 5em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
 }
 
 .above_fold--billboard_heading {
@@ -110,6 +120,17 @@ h5 {
 .above_fold--billboard_text {
     font-size: 1.25rem;
     margin-bottom: 2.25em;
+}
+
+.above_fold--cart_image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+    object-fit: cover;
+    margin-inline: auto;
 }
 
 .order_button {
@@ -326,6 +347,7 @@ section + section {
 .features--image {
     grid-row: 2 / 5;
     grid-column: 3 / 4;
+    margin-inline: auto;
 }
 
 .features--numbers--right {
